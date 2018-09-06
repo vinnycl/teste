@@ -1,0 +1,17 @@
+.section--main-title {
+    padding: 0 2.3em;
+    margin-bottom: 3.5em;
+    h2 {
+        margin: 0;
+        font-size: 2em;
+        line-height: 1.2;
+        color: #5A5A5A;
+        text-align: center;
+        font-weight: normal;
+        strong {
+            font-weight: bold;
+            display: block;
+            color: #000;
+        }
+    }
+}

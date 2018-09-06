@@ -1,0 +1,111 @@
+{
+  "name": "Auto Esporte",
+  "description": "Tudo sobre carros - avaliação, comparativo, melhores compras",
+  "attendanceTelephone": "4002-5300",
+  "attendanceText": "2a a 6a: 8h às 19h | Sábados: 8h às 14h",
+  "bids": [
+    {
+      "title": "Auto Esporte Digital",
+      "subtitle": "Acesso a todo conteúdo digital Auto Esporte",
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
+      "codes": [
+        "ATD"
+      ],
+      "buttonText": "Quero assinar",
+      "buttonColor": "ff0000",
+      "buttonTextColor": "ffffff",
+      "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
+      "advantages": [
+        "Vantagem principal"
+      ]
+    },
+    {
+      "betterChoice": true,
+      "title": "Globo+",
+      "subtitle": "Acesso ao conteúdo de todas as marcas da Editora Globo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
+      "codes": [
+        "GMT"
+      ],
+      "buttonText": "Quero assinar",
+      "buttonColor": "ff0000",
+      "buttonTextColor": "ffffff",
+      "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
+      "advantages": [
+        "Vantagem principal",
+        "Vantagem não tão importante",
+        "Vantagem honesta"
+      ]
+    },
+    {
+      "title": "Auto Esporte Plus",
+      "subtitle": "Acesso a todo conteúdo digital + revista física",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
+      "codes": [
+        "AT", "ATD"
+      ],
+      "buttonText": "Quero assinar",
+      "buttonColor": "ff0000",
+      "buttonTextColor": "ffffff",
+      "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
+      "advantages": [
+        "Vantagem principal",
+        "Vantagem não tão importante"
+      ]
+    }
+  ],
+  "advantageConfiguration": {
+    "text": "Assinando a Auto Esporte, você ainda conta com as vantagens de ser um assinante Globo",
+    "advantages" : [
+      {
+        "imageLink": "https://www.infoescola.com/wp-content/uploads/2008/04/urso.jpg",
+        "title": "Comodidade",
+        "details": "Tenha o melhor conteúdo sobre agronegócio sem sair de casa com o acesso digital exclusivo"
+      },
+      {
+        "imageLink": "https://images-americanas.b2w.io/produtos/01/00/sku/21111/9/21111996_1SZ.jpg",
+        "title": "Conteúdo",
+        "details": "Cobertura completa e atualizada dos fatos que marcaram agronegócio"
+      },
+      {
+        "imageLink": "https://img.baudalulu.com.br/imagens/produtos/153PESOURSO/153PESOURSO/Ampliada/pelucia-peso-de-porta-urso.jpg",
+        "title": "Qualidade",
+        "details": "Conteúdo exclusivo, com a qualidade Globo, para você estar sempre atualizado sobre o agronegócio"
+      }
+    ]
+  },
+  "walls": [
+    {
+      "activated": true,
+      "name": "Barreira padrão sem vínculos com temas específicos",
+      "title": "Lorem ipsum dolor sit amet, consectur adipiscing elit",
+      "subTitle": "Nullam in tristique enim",
+      "legalText": "Assinatura O GLOBO DIGITAL - Oferta válida somente bla. Assinatura O GLOBO DIGITAL PREMIUM - Oferta bla.",
+      "banners": [
+        {
+          "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
+          "buttonText": "Quero assinar",
+          "buttonColor": "ff0000",
+          "buttonTextColor": "ffffff",
+          "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
+          "backgroundImage": "http://luciliadiniz.com/wp-content/uploads/2013/12/a-dieta-do-amigo-urso.jpg",
+          "devicesImage": "https://cdn.atelier.bnpparibas/media/cache/share/uploads/image/430653_atelier-marche-mondial-devices.jpg",
+          "googleAppLink": "https://play.google.com/store/apps/details?id=br.com.globomagazines",
+          "appleAppLink": "https://itunes.apple.com/br/app/globo+-conteudo-que-faz-diferenca/id943871531?mt=8"
+        },
+        {
+          "activated": true,
+          "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
+          "buttonText": "Quero assinar",
+          "buttonColor": "ff0000",
+          "buttonTextColor": "ffffff",
+          "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
+          "backgroundImage": "http://luciliadiniz.com/wp-content/uploads/2013/12/a-dieta-do-amigo-urso.jpg",
+          "devicesImage": "https://cdn.atelier.bnpparibas/media/cache/share/uploads/image/430653_atelier-marche-mondial-devices.jpg",
+          "googleAppLink": "https://play.google.com/store/apps/details?id=br.com.globomagazines",
+          "appleAppLink": "https://itunes.apple.com/br/app/globo+-conteudo-que-faz-diferenca/id943871531?mt=8"
+        }
+      ]
+    }
+  ]
+}

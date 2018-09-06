@@ -1,0 +1,41 @@
+.footer {
+    background: #5D5D5D;
+    padding: 3.8em 0.8em 0.6em;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    h2 {
+        margin: 0 auto 0.8em auto;
+        font-size: 3.0em;
+        text-align: center;
+        padding: 0 0 0 2em;
+        background: url(../../../assets/images/icon-phonecall.svg) no-repeat 0.7em 0;
+        background-size: 2.2em;
+        font-weight: 400;
+        width: 8em;
+        a {
+            font-size: 1.167em; 
+            display: block; 
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 0.1em;
+        }
+    }
+    p {
+        font-size: 1.3em;
+        font-weight: 300;
+        line-height: 1.4;
+        margin: 0 0 1.5em 0;
+    }
+    .footer--assistance-service {
+        font-size: 1.7em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    hr {
+        border: 0.01em solid #979797;
+
+        margin: 0 0 1.8em 0;
+    }
+    
+}

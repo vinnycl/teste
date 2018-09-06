@@ -1,0 +1,40 @@
+.section--benefits {
+    background: #F8F8F8;
+    padding: 3.6em 0.8em 0.8em;
+    h3 {
+        font-size: 2em;
+        margin: 0 0 2.1em;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 1.2;
+        color: #3D3D3D;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        li {
+            padding: 0 2.2em;
+            img {
+                margin-bottom: 2.5em;
+            }
+            h4, p {
+                color: #434343;
+                margin: 0;
+            }
+            h4 {
+                font-family: 'Raleway', sans-serif;
+                font-size: 2.4em;
+                margin-bottom: 0.583em;
+            }
+            p {
+                font-family: "Roboto", sans-serif;
+                font-size: 1.8em;
+                line-height: 1.2;
+                margin-bottom: 2.333em;
+             }
+        }
+    }
+}

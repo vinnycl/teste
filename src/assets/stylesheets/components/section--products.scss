@@ -1,0 +1,101 @@
+.section--products {
+    padding: 0 0.8em;
+    margin-bottom: 2.1em;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            position: relative;
+            &.spotlight--best-choice {
+                margin-top: 3.3em;
+                &:before {
+                    content: "Melhor escolha";
+                    height: 2em;
+                    width: 11em;
+                    font-size: 1.4em;
+                    position: absolute;
+                    top: 0px;
+                    background: #e84a49;
+                    background: linear-gradient(to right, #e84a49 0%,#e76a27 100%);
+                    color: #fff;
+                    left: 50%;
+                    transform:translate(-50%, -50%);
+                    border-radius: 0.15em;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            h3 {
+                margin: 0 0 0.5em;
+                font-size: 2em;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: 1.4em;
+                text-align: center;
+                color: #5A5A5A;
+                font-weight: 500;
+                line-height: 1.2;
+                margin: 0 0 1.571em;
+                padding: 0 1.5em;
+            }
+            img {
+                margin: 0 auto 2em;
+                display: block;
+            }
+            .price--main {
+                font-size: 3em;
+                line-height: 1.17;
+                margin-bottom: 0.8em;
+                color: #5C5C5C;
+                text-align: center;                
+                .price--currency, .price--time {
+                    font-size: 0.53em;
+                    position: relative;
+                    color: #B4B4B4;
+                }
+                .price--currency {
+                    top: -0.6em;
+                    margin-right: -0.2em;
+                    font-weight: 400;
+                }
+                .price--time {
+                    top: 0.2em;
+                    margin-left: -0.4em;
+                    font-weight: 400;
+                }
+                .price--cash {
+                    font-weight: 500;
+                }
+            }
+            
+        }
+    }
+    > ul {
+        margin-bottom: 4.8em;
+        > li {
+            margin-bottom: 1.313em;
+            padding: 2.4em;
+            border: 0.1em solid #DDDDDD;
+            box-shadow: 0.4em 0.4em 0.9em 0 rgba(0,0,0,0.08);
+            border-radius: 0.5em 0.5em 0 0; 
+        }
+    }
+    .section--product-benefits {
+        border-top: 1px solid #D8D8D8;
+        margin: 0.8em -2.4em 2em;
+        padding-top: 0.6em;
+        li {
+            font-size: 1.4em;
+            line-height: 1.2;
+            margin-top: 1.071em;
+            padding: 0 1.5em 0 3.929em;
+            background: url(../../../assets/images/icon-check.svg) no-repeat 1.8em 0.4em;
+        }
+    }
+}

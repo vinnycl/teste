@@ -1,0 +1,32 @@
+.button {
+    border-radius: 3px;
+    color: #000;
+    font-size: 2em;
+    height: 2.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 0 none;
+    &.button--red {
+        background: #E41F37;
+        color: #fff;
+        &.button--red-inverted {
+            background: #fff;
+            color: #E41F37;
+        }
+    }
+    &.button--benefits-show {
+        display: block;
+        height: 1.5em;
+        width: 100%;
+        color: transparent;
+        cursor: pointer;
+        background: url(../images/icon-drop-down.svg) no-repeat 50% bottom;
+    }
+    &.button--benefits-hide {
+        background: url(../images/icon-drop-up.svg) no-repeat 50% bottom;
+    }
+    
+}
