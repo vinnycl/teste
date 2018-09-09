@@ -1,24 +1,34 @@
 <template>
   <div id="vitrine-digital">
     <my-header 
-      :telephone="'4002-5300'" >
-    </my-header> 
+      :name="dataServer.name"
+      :logo="dataServer.logo"
+      :telephone="dataServer.attendanceTelephone" />
     <main>
+      <!--div v-for="data in dataServer">{{data}}</div-->
       <main-title>
       </main-title> 
-      <products>
-      </products>
-      <benefits>
-      </benefits>
-      <banner>
-      </banner>
-      <products-copy>
-      </products-copy>
+      <products
+        :title="dataServer.bids[0].title"
+        :subtitle="dataServer.bids[0].subtitle"
+        :imageLink="dataServer.bids[0].imageLink"
+        :buttonText="dataServer.bids[0].buttonText"
+        :buttonColor="dataServer.bids[0].buttonColor"
+        :buttonTextColor="dataServer.bids[0].buttonTextColor"
+        :buttonlink="dataServer.bids[0].buttonlink"
+        :betterChoice="dataServer.bids[0].betterChoice"
+        :advantages="dataServer.bids[0].advantages"
+        :titlePack="dataServer.bids[0].titlePack"
+        :priceMoney="dataServer.bids[0].priceMoney"
+        :priceTime="dataServer.bids[0].priceTime"
+      />
+      <benefits/>
+      <banner/>
+      <products-copy/>
     </main>
     <my-footer 
-    :telephone="'4002-5300'" 
-    :officeHours="'2ª a 6ª: 8h às 19h | Sábados: 8h às 14h'" >
-    </my-footer> 
+    :telephone="dataServer.attendanceTelephone" 
+    :officeHours="dataServer.attendanceText"/> 
     
   </div>
 </template>
@@ -32,6 +42,7 @@ import Products from '../components/shared/section/Products.vue'
 import Benefits from '../components/shared/section/Benefits.vue'
 import Banner from '../components/shared/section/Banner.vue'
 import ProductsCopy from '../components/shared/section/Products-copy.vue'
+import json from '../../static/data.json'
 
 export default {
   components: {
@@ -42,6 +53,12 @@ export default {
     'benefits': Benefits,
     'banner': Banner,
     'products-copy': ProductsCopy
+  },
+    data() {
+
+      return {
+        dataServer: json
+      }
   }
 }
 </script>

@@ -1,13 +1,17 @@
 {
   "name": "Auto Esporte",
-  "description": "Tudo sobre carros - avaliação, comparativo, melhores compras",
+  "logo": "images/logo-autoesporte.svg",
+  "description": "Tudo sobre carros - avaliaÃ§Ã£o, comparativo, melhores compras",
   "attendanceTelephone": "4002-5300",
-  "attendanceText": "2a a 6a: 8h às 19h | Sábados: 8h às 14h",
+  "attendanceText": "2a a 6a: 8h Ã s 19h | SÃ¡bados: 8h Ã s 14h",
   "bids": [
     {
       "title": "Auto Esporte Digital",
-      "subtitle": "Acesso a todo conteúdo digital Auto Esporte",
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
+      "subtitle": "Acesso a todo conteÃºdo digital Auto Esporte",
+      "imageLink": "images/devices.png",
+      "titlePack": "Descricao do pack",
+      "priceMoney": "4,90",
+      "priceTime": "/mÃªs",
       "codes": [
         "ATD"
       ],
@@ -22,7 +26,7 @@
     {
       "betterChoice": true,
       "title": "Globo+",
-      "subtitle": "Acesso ao conteúdo de todas as marcas da Editora Globo",
+      "subtitle": "Acesso ao conteÃºdo de todas as marcas da Editora Globo",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
       "codes": [
         "GMT"
@@ -33,13 +37,13 @@
       "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
       "advantages": [
         "Vantagem principal",
-        "Vantagem não tão importante",
+        "Vantagem nÃ£o tÃ£o importante",
         "Vantagem honesta"
       ]
     },
     {
       "title": "Auto Esporte Plus",
-      "subtitle": "Acesso a todo conteúdo digital + revista física",
+      "subtitle": "Acesso a todo conteÃºdo digital + revista fÃ­sica",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
       "codes": [
         "AT", "ATD"
@@ -50,40 +54,40 @@
       "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
       "advantages": [
         "Vantagem principal",
-        "Vantagem não tão importante"
+        "Vantagem nÃ£o tÃ£o importante"
       ]
     }
   ],
   "advantageConfiguration": {
-    "text": "Assinando a Auto Esporte, você ainda conta com as vantagens de ser um assinante Globo",
+    "text": "Assinando a Auto Esporte, vocÃª ainda conta com as vantagens de ser um assinante Globo",
     "advantages" : [
       {
         "imageLink": "https://www.infoescola.com/wp-content/uploads/2008/04/urso.jpg",
         "title": "Comodidade",
-        "details": "Tenha o melhor conteúdo sobre agronegócio sem sair de casa com o acesso digital exclusivo"
+        "details": "Tenha o melhor conteÃºdo sobre agronegÃ³cio sem sair de casa com o acesso digital exclusivo"
       },
       {
         "imageLink": "https://images-americanas.b2w.io/produtos/01/00/sku/21111/9/21111996_1SZ.jpg",
-        "title": "Conteúdo",
-        "details": "Cobertura completa e atualizada dos fatos que marcaram agronegócio"
+        "title": "ConteÃºdo",
+        "details": "Cobertura completa e atualizada dos fatos que marcaram agronegÃ³cio"
       },
       {
         "imageLink": "https://img.baudalulu.com.br/imagens/produtos/153PESOURSO/153PESOURSO/Ampliada/pelucia-peso-de-porta-urso.jpg",
         "title": "Qualidade",
-        "details": "Conteúdo exclusivo, com a qualidade Globo, para você estar sempre atualizado sobre o agronegócio"
+        "details": "ConteÃºdo exclusivo, com a qualidade Globo, para vocÃª estar sempre atualizado sobre o agronegÃ³cio"
       }
     ]
   },
   "walls": [
     {
       "activated": true,
-      "name": "Barreira padrão sem vínculos com temas específicos",
+      "name": "Barreira padrÃ£o sem vÃ­nculos com temas especÃ­ficos",
       "title": "Lorem ipsum dolor sit amet, consectur adipiscing elit",
       "subTitle": "Nullam in tristique enim",
-      "legalText": "Assinatura O GLOBO DIGITAL - Oferta válida somente bla. Assinatura O GLOBO DIGITAL PREMIUM - Oferta bla.",
+      "legalText": "Assinatura O GLOBO DIGITAL - Oferta vÃ¡lida somente bla. Assinatura O GLOBO DIGITAL PREMIUM - Oferta bla.",
       "banners": [
         {
-          "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
+          "text": "Assinante Globo+ tÃªm acesso ilimitado a todos os produtos digitais",
           "buttonText": "Quero assinar",
           "buttonColor": "ff0000",
           "buttonTextColor": "ffffff",
@@ -95,7 +99,7 @@
         },
         {
           "activated": true,
-          "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
+          "text": "Assinante Globo+ tÃªm acesso ilimitado a todos os produtos digitais",
           "buttonText": "Quero assinar",
           "buttonColor": "ff0000",
           "buttonTextColor": "ffffff",

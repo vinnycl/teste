@@ -2,13 +2,13 @@
     <section class="section section--products">
         <ul>
           <li>
-            <h3>Auto Esporte Digital</h3>
-            <p>Acesso a todo conteúdo digital Auto Esporte</p>
-            <img src="../../../assets/images/devices.png" alt="Tipos de dispositivos que você pode usar ler nosso conteúdo" />
+            <h3>{{ title }}</h3>
+            <p>{{ subtitle }}</p>
+            <img :src="`${imageLink}`" :alt="`${titlePack}`" />
             <div class="price price--main">
               <span class="price price--currency">R$</span>
-              <span class="price price--cash">4,90</span>
-              <span class="price price--time">/mês</span>
+              <span class="price price--cash">{{ priceMoney }}</span>
+              <span class="price price--time">{{ priceTime }}</span>
             </div>
             <a href="#" class="button button--red">Quero assinar</a>
             <button class="button button--benefits-show " onclick="toggle();">Ver lista de benefícios</button>
@@ -76,6 +76,8 @@
 
 <script>
 export default {
+  props: ['title', 'subtitle', 'imageLink', 'buttonText',   'buttonColor', 'buttonTextColor', 
+  'buttonlink', 'betterChoice', 'advantages', 'titlePack', 'priceMoney', 'priceTime' ]
 }
 </script>
 

@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   routes: [
     {
-      path: '/',
+      path: '',
       name: 'home',
       component: () => import('./pages/Index.vue')
     },
