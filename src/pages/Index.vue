@@ -17,7 +17,7 @@
         :buttonTextColor="dataServer.bids[0].buttonTextColor"
         :buttonlink="dataServer.bids[0].buttonlink"
         :betterChoice="dataServer.bids[0].betterChoice"
-        :advantages="dataServer.bids[0].advantages"
+        :advantages="dataServer.bids[0].advantages[0]"
         :titlePack="dataServer.bids[0].titlePack"
         :priceMoney="dataServer.bids[0].priceMoney"
         :priceTime="dataServer.bids[0].priceTime"

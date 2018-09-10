@@ -1,11 +1,12 @@
 {
   "name": "Auto Esporte",
-  "logo": "images/logo-autoesporte.svg",
+  "logo": "logo-autoesporte.svg",
   "description": "Tudo sobre carros - avaliação, comparativo, melhores compras",
   "attendanceTelephone": "4002-5300",
   "attendanceText": "2a a 6a: 8h às 19h | Sábados: 8h às 14h",
   "bids": [
     {
+      "betterChoice": false,
       "title": "Auto Esporte Digital",
       "subtitle": "Acesso a todo conteúdo digital Auto Esporte",
       "imageLink": "images/devices.png",

@@ -1,7 +1,7 @@
 <template>
     <section class="section section--products">
         <ul>
-          <li>
+          <li :class="{'spotlight--best-choice': betterChoice }">
             <h3>{{ title }}</h3>
             <p>{{ subtitle }}</p>
             <img :src="`${imageLink}`" :alt="`${titlePack}`" />
@@ -10,17 +10,16 @@
               <span class="price price--cash">{{ priceMoney }}</span>
               <span class="price price--time">{{ priceTime }}</span>
             </div>
-            <a href="#" class="button button--red">Quero assinar</a>
+            <a 
+            :href="`${buttonlink}`" 
+            :style="`color: ${buttonTextColor} ; background-color: ${buttonColor} ;`"
+            class="button button--red">
+              {{ buttonText }}
+            </a>
             <button class="button button--benefits-show " onclick="toggle();">Ver lista de benefícios</button>
             <ul class="section--product-benefits hidden">
               <li>
-                Neque corro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-              </li>
-              <li>
-                Neque corro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-              </li>
-              <li>
-                Neque corro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                {{ advantages }}
               </li>
             </ul>
           </li>
