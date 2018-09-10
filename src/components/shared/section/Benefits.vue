@@ -1,11 +1,11 @@
 <template>
   <section class="section section--benefits">
-    <h3>Assinando a Auto Esporte, você ainda conta com as vantagens de ser um assinante Globo:</h3>
+    <h3>{{ text }}</h3>
     <ul>
       <li>
-        <img src="../../../assets/images/icon-commodity.svg" alt="Comodidade" />
-        <h4>Comodidade</h4>
-        <p>Tenha o melhor conteúdo sobre agronegócio sem sair de casa com o acesso digital exclusivo</p>
+        <img :src="`${imageLink}`" :alt="`${title}`" />
+        <h4>{{ title }}</h4>
+        <p>{{ details }}</p>
       </li>
       <li>
         <img src="../../../assets/images/icon-content.svg" alt="Conteúdo" />
@@ -23,6 +23,7 @@
 
 <script>
 export default {
+  props: ['text', 'imageLink', 'details', 'title']
 }
 </script>
 

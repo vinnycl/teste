@@ -21,7 +21,11 @@
         :priceMoney="dataServer.bids[0].priceMoney"
         :priceTime="dataServer.bids[0].priceTime"
       />
-      <benefits/>
+      <benefits
+        :text="dataServer.advantageConfiguration.text"
+        :imageLink="dataServer.advantageConfiguration.advantages[0].imageLink"
+        :title="dataServer.advantageConfiguration.advantages[0].title"
+        :details="dataServer.advantageConfiguration.advantages[0].details" />
       <banner/>
       <products-copy/>
     </main>
