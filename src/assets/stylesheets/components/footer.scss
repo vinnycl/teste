@@ -1,3 +1,5 @@
+@import '../_variables';
+
 .footer {
     background: #5D5D5D;
     padding: 3.8em 0.8em 0.6em;
@@ -26,6 +28,10 @@
         font-weight: 300;
         line-height: 1.4;
         margin: 0 0 1.5em 0;
+        @include media("<minWidth") {
+            max-width: 40.385em;
+            margin: 0 auto 1em ;
+        };
     }
     .footer--assistance-service {
         font-size: 1.7em;
@@ -34,8 +40,11 @@
     }
     hr {
         border: 0.01em solid #979797;
-
         margin: 0 0 1.8em 0;
+        @include media("<minWidth") {
+            max-width: 30.7em;
+            margin: 0 auto 1.8em;
+        };
     }
     
 }
