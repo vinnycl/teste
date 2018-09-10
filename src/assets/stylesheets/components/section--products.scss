@@ -88,14 +88,14 @@
     }
     .section--product-benefits {
         border-top: 1px solid #D8D8D8;
-        margin: 0.8em -2.4em 2em;
+        margin: 2em -2.4em 0em;
         padding-top: 0.6em;
         li {
             font-size: 1.4em;
             line-height: 1.2;
             margin-top: 1.071em;
-            padding: 0 1.5em 0.2em 3.929em;
-            background: url(../../../assets/images/icon-check.svg) no-repeat 1.8em 0.4em;
+            padding: 0 1.5em 0 3.929em;
+            background: url(../../../assets/images/icon-check.svg) no-repeat 1.8em 0.2em;
         }
     }
 }
