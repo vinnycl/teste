@@ -1,11 +1,12 @@
 <template>
     <section class="section section--main-title">
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Nullam in tristique enim.</strong></h2>
+        <h2 v-html="title" ></h2>
       </section>
 </template>
 
 <script>
 export default {
+    props: ['title']
 }
 </script>
 

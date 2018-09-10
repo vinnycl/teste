@@ -6,8 +6,7 @@
       :telephone="dataServer.attendanceTelephone" />
     <main>
       <!--div v-for="data in dataServer">{{data}}</div-->
-      <main-title>
-      </main-title> 
+      <main-title :title="dataServer.title" />
       <products
         :title="dataServer.bids[0].title"
         :subtitle="dataServer.bids[0].subtitle"
@@ -28,7 +27,8 @@
     </main>
     <my-footer 
     :telephone="dataServer.attendanceTelephone" 
-    :officeHours="dataServer.attendanceText"/> 
+    :officeHours="dataServer.attendanceText"
+    :legalText="dataServer.walls[0].legalText"/> 
     
   </div>
 </template>
