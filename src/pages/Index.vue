@@ -3,12 +3,14 @@
     <my-header 
       :name="dataServer.name"
       :logo="dataServer.logo"
+      :logoCompany="dataServer.logoCompany"
+      :descCompany="dataServer.descCompany"
       :telephone="dataServer.attendanceTelephone" />
     <main>
       <main-title :title="dataServer.title" />
       <products>
-        <ul v-for="data in dataServer.bids" >
-          <li :class="{'spotlight--best-choice': data.betterChoice }" >
+        <ul  >
+          <li v-for="data in dataServer.bids" :class="{'spotlight--best-choice': data.betterChoice }" >
             <h3>{{ data.title }}</h3>
             <p>{{ data.subtitle }}</p>
             <img :src="`${data.imageLink}`" :alt="`${data.titlePack}`" />

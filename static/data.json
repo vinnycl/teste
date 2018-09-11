@@ -1,6 +1,8 @@
 {
   "name": "Auto Esporte",
   "logo": "logo-autoesporte.svg",
+  "logoCompany": "logo-assineglobo.svg",
+  "descCompany": "logo-assineglobo.svg",
   "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Nullam in tristique enim.</strong>",
   "description": "Tudo sobre carros - avaliação, comparativo, melhores compras",
   "attendanceTelephone": "4002-5300",
@@ -69,7 +71,7 @@
     }
   ],
   "advantageConfiguration": {
-    "text": "Assinando a Auto Esporte, você ainda conta com as vantagens de ser um assinante Globo",
+    "text": "Assinando a Auto Esporte, você ainda conta com as vantagens de ser um assinante Globo:",
     "advantages" : [
       {
         "imageLink": "icon-commodity.svg",

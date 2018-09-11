@@ -1,7 +1,13 @@
 @import '../_variables';
 .section--main-title {
     padding: 0 2.3em;
-    margin-bottom: 3.5em;
+    margin-bottom: 3.5em;    
+    @include media(">bp1Width") {
+        margin-bottom: 7.6em;
+    };
+    @include media(">maxWidth") {
+        padding: 0;
+    };
     h2 {
         margin: 0;
         font-size: 2em;
@@ -9,6 +15,9 @@
         color: #5A5A5A;
         text-align: center;
         font-weight: normal;
+        @include media(">bp1Width") {
+            font-size: 3em;
+        };
         strong {
             font-weight: bold;
             display: block;

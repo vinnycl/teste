@@ -5,6 +5,9 @@
     padding: 3.8em 1.4em 0.6em;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    @include media(">maxWidth") {
+        padding: 3.8em 0em 0.6em;
+    };
     h2 {
         margin: 0 auto 0.8em auto;
         font-size: 3.0em;
@@ -32,18 +35,35 @@
             max-width: 40.385em;
             margin: 0 auto 1em ;
         };
+        @include media(">bp1Width") {
+            font-size: 1.8em;
+            max-width: 53.333em;
+        };
+        @include media(">maxWidth") {
+            max-width: unset;
+        };
     }
     .footer--assistance-service {
         font-size: 1.6em;
         margin-bottom: 1em;
         text-align: center;
+        @include media(">bp1Width") {
+            font-size: 2em;
+        };
     }
     hr {
-        border: 0.01em solid #979797;
+        border: none;
+        border-top: 1px solid #979797;
         margin: 0 0 1.8em 0;
         @include media(">minWidth") {
             max-width: 30.7em;
             margin: 0 auto 1.8em;
+        };
+        @include media(">bp1Width") {
+            max-width: 96em;
+        };
+        @include media(">maxWidth") {
+            max-width: unset;
         };
     }
     

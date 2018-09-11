@@ -2,9 +2,22 @@
 
 .section--banner {
     background: white no-repeat 50% 50%;
-    padding: 4.0em 1.3em 5em;
+    padding: 4em 1.3em 5em;
     @include media(">minWidth") {
         background-size: cover;
+    };
+    @include media(">bp1Width") {
+        padding: 12em 1.3em 12em;
+        background-size: 100%;
+    };
+    @include media(">bp1Width") {
+        .grid {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    };
+    @include media(">maxWidth") {
+        padding: 12em 0em 12em;
     };
     h3 {
         font-size: 2.5em;
@@ -17,6 +30,9 @@
         @include media(">minWidth") {
             max-width: 12em;
             margin: 0 auto 1em;
+        };
+        @include media(">bp1Width") {
+            font-size: 3.6em;
         };
     }
     .button--red-inverted {

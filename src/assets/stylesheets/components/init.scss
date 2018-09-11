@@ -15,3 +15,10 @@ button {
 .hidden {
     display: none ;
 }
+
+@include media(">maxWidth") {
+    .grid {
+        width: $mediaMaxWidth;
+        margin: 0 auto;
+    }
+};

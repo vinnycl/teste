@@ -1,14 +1,28 @@
 @import '../_variables';
 .header {
     background: #646464;
-    display: flex;
-    justify-content: space-between;
     height: 5.5em;
     padding:1.1em 1.6em;
     box-sizing: border-box;
     margin-bottom: 3.3em;
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    @include media(">bp1Width") {
+        margin-bottom: 4.8em;
+    };
     h1 {
         margin: 0;
+        display: flex;
+        align-items: center;
+        .logo-company {
+            margin-right: 1.5em;
+            display: none;
+            @include media(">bp1Width") {
+                display: initial;
+            };
+        }
     }
     .link--telephone {
         color: white;

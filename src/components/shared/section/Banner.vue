@@ -1,13 +1,19 @@
 <template>
   <section class="section section--banner" :style="`background-image: url(${backgroundImage}) ;`">
-    <h3>{{ text }}</h3>
-    <a :href="`${buttonlink}`" class="button button--red button--red-inverted"
-      :style="`color: ${buttonTextColor} ; background-color: ${buttonColor} ;`" >
-        {{ buttonText }}
-    </a>
-    <a :href="`${link}`" class="section--banner-image">
-      <img :src="`${images}`" :alt="`${text}`" />
-    </a>
+    <div class="grid">
+      <div class="section--banner-information">
+        <h3>{{ text }}</h3>
+        <a :href="`${buttonlink}`" class="button button--red button--red-inverted"
+          :style="`color: ${buttonTextColor} ; background-color: ${buttonColor} ;`" >
+            {{ buttonText }}
+        </a>
+      </div>
+      <div class="section--banner-image">
+        <a :href="`${link}`" class="section--banner-image">
+          <img :src="`${images}`" :alt="`${text}`" />
+        </a>
+      </div>
+    </div>
   </section>
 </template>
 

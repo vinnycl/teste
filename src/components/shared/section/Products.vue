@@ -1,6 +1,8 @@
 <template>
     <section class="section section--products">
-        <slot></slot>
+        <div class="grid">
+            <slot></slot>
+        </div>        
       </section>
 </template>
 

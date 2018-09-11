@@ -1,6 +1,8 @@
 <template>
     <section class="section section--main-title">
-        <h2 v-html="title" ></h2>
+        <div class="grid">
+            <h2 v-html="title" ></h2>
+        </div>        
       </section>
 </template>
 

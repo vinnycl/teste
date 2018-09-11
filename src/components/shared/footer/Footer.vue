@@ -1,9 +1,11 @@
 <template>
     <footer class="footer footer--state-magazines">
-        <h2>Televendas <a class="link link--telephone" :href="`tel:${telephone}`" >{{ telephone }}</a> </h2>
-        <p class="footer--assistance-service">{{ officeHours }}</p>
-        <hr />
-        <p v-html="legalText" ></p>
+            <div class="grid">
+            <h2>Televendas <a class="link link--telephone" :href="`tel:${telephone}`" >{{ telephone }}</a> </h2>
+            <p class="footer--assistance-service">{{ officeHours }}</p>
+            <hr />
+            <p v-html="legalText" ></p>
+        </div>
     </footer>
 </template>
 

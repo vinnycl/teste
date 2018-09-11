@@ -2,6 +2,9 @@
 .section--benefits {
     background: #F8F8F8;
     padding: 3.6em 0.8em 0.8em;
+    @include media(">maxWidth") {
+        padding: 3.6em 0em 0.1em;
+    };
     h3 {
         font-size: 2em;
         margin: 0 0 2.1em;
@@ -14,12 +17,21 @@
             max-width: 25.5em;
             margin: 0 auto 2.1em;
         };
+        @include media(">bp1Width") {
+            font-size: 3.6em;
+            margin-bottom: 1.111em;
+        };
     }
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
         text-align: center;
+        @include media(">bp1Width") {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 5.6em;
+        };
         li {
             padding: 0 2.2em;
             img {
@@ -42,6 +54,9 @@
                 @include media(">minWidth") {
                     max-width: 14.444em;
                     margin: 0 auto 2.333em;
+                };
+                @include media(">bp1Width") {
+                    margin-bottom: 0em;
                 };
              }
         }
