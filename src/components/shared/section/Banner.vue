@@ -1,15 +1,20 @@
 <template>
-  <section class="section section--banner">
-    <h3>Assinantes Globo+ têm acesso ilimitado a todos os produtos digitais</h3>
-    <a href="#" class="button button--red button--red-inverted">Quero assinar</a>
-    <a href="#" class="section--banner-image">
-      <img src="../../../assets/images/banner-exemple.png" alt="Exemplo de banner" />
+  <section class="section section--banner" :style="`background-image: url(${backgroundImage}) ;`">
+    <h3>{{ text }}</h3>
+    <a :href="`${buttonlink}`" class="button button--red button--red-inverted"
+      :style="`color: ${buttonTextColor} ; background-color: ${buttonColor} ;`" >
+        {{ buttonText }}
+    </a>
+    <a :href="`${link}`" class="section--banner-image">
+      <img :src="`${images}`" :alt="`${text}`" />
     </a>
   </section>
 </template>
 
 <script>
 export default {
+  props: ['text', 'buttonText', 'buttonColor', 'buttonTextColor', 'buttonlink', 'backgroundImage', 
+  'images', 'link']
 }
 </script>
 

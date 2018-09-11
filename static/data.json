@@ -5,12 +5,14 @@
   "description": "Tudo sobre carros - avaliação, comparativo, melhores compras",
   "attendanceTelephone": "4002-5300",
   "attendanceText": "2ª a 6ª: 8h às 19h | Sábados: 8h às 14h",
+  "legalText": "Assinatura O GLOBO DIGITAL - Oferta válida somente para novos assinantes/pessoa física. O valor de R$ 1,90 será cobrado no primeiro mês de assinatura do pacote digital light. A partir do segundo mês, pague apenas R$ 9,90/mês. Aplicativo O GLOBO NOTÍCIAS disponível para smartphones compatíveis com os sistemas iOS (a partir da versão 8.1) e Android (a partir da versão 4.0.3). Informamos que os descontos são em relação ao preço padrão vigente. Pagamento somente no cartão de crédito ou débito em conta corrente. Para novos assinantes, ao escolher a opção de débito automático no ITAÚ, no primeiro mês de uso você precisará liberá-lo para concluir a operação. Essa autorização pode ser feita através dos canais: internet, caixas eletrônicos ou aplicativo Itaú. Cancele quando quiser através da nossa Central de Relacionamento. <br/> <br/> Assinatura O GLOBO DIGITAL PREMIUM - Oferta válida somente para novos assinantes/pessoa física. O valor de R$ 5,90 será cobrado nos três primeiros meses de assinatura do GLOBO DIGITAL PREMIUM. A partir do quarto mês, pague apenas R$ 29,90/mês, preço padrão vigente. Aplicativo GLOBO MAIS e Jornal digital  (através do aplicativo O GLOBO) disponíveis para smartphones e tablets compatíveis com os sistemas iOS (a partir da versão 8.1) e Android (a partir da versão 4.4), e para computadores. Aplicativo O GLOBO NOTÍCIAS disponível para smartphones compatíveis com os sistemas iOS (a partir da versão 8.1) e Android (a partir da versão 4.0.3). Informamos que os descontos são em relação ao preço padrão vigente. Pagamento somente no cartão de crédito ou débito em conta corrente. Para novos assinantes, ao escolher a opção de débito automático no ITAÚ, no primeiro mês de uso você precisará liberá-lo para concluir a operação. Essa autorização pode ser feita através dos canais: internet, caixas eletrônicos ou aplicativo Itaú. Cancele quando quiser através da nossa Central de Relacionamento.",
+  "walls": true,
   "bids": [
     {
       "betterChoice": false,
       "title": "Auto Esporte Digital",
       "subtitle": "Acesso a todo conteúdo digital Auto Esporte",
-      "imageLink": "images/devices.png",
+      "imageLink": "devices.png",
       "titlePack": "Descricao do pack",
       "priceMoney": "4,90",
       "priceTime": "/mês",
@@ -29,7 +31,7 @@
       "betterChoice": true,
       "title": "Globo+",
       "subtitle": "Acesso ao conteúdo de todas as marcas da Editora Globo",
-      "imageLink": "images/devices.png",
+      "imageLink": "devices.png",
       "titlePack": "Descricao do pack",
       "priceMoney": "29,90",
       "priceTime": "/mês",
@@ -49,7 +51,7 @@
     {
       "title": "Auto Esporte Plus",
       "subtitle": "Acesso a todo conteúdo digital + revista física",
-      "imageLink": "images/devices-e-revistas.png",
+      "imageLink": "devices-e-revistas.png",
       "titlePack": "Descricao do pack",
       "priceMoney": "12,90",
       "priceTime": "/mês",
@@ -75,49 +77,26 @@
         "details": "Tenha o melhor conteúdo sobre agronegócio sem sair de casa com o acesso digital exclusivo"
       },
       {
-        "imageLink": "https://images-americanas.b2w.io/produtos/01/00/sku/21111/9/21111996_1SZ.jpg",
+        "imageLink": "icon-content.svg",
         "title": "Conteúdo",
         "details": "Cobertura completa e atualizada dos fatos que marcaram agronegócio"
       },
       {
-        "imageLink": "https://img.baudalulu.com.br/imagens/produtos/153PESOURSO/153PESOURSO/Ampliada/pelucia-peso-de-porta-urso.jpg",
+        "imageLink": "icon-quality.svg",
         "title": "Qualidade",
         "details": "Conteúdo exclusivo, com a qualidade Globo, para você estar sempre atualizado sobre o agronegócio"
       }
     ]
   },
-  "walls": [
-    {
-      "activated": true,
-      "name": "Barreira padrão sem vínculos com temas específicos",
-      "title": "Lorem ipsum dolor sit amet, consectur adipiscing elit",
-      "subTitle": "Nullam in tristique enim",
-      "legalText": "Assinatura O GLOBO DIGITAL - Oferta válida somente para novos assinantes/pessoa física. O valor de R$ 1,90 será cobrado no primeiro mês de assinatura do pacote digital light. A partir do segundo mês, pague apenas R$ 9,90/mês. Aplicativo O GLOBO NOTÍCIAS disponível para smartphones compatíveis com os sistemas iOS (a partir da versão 8.1) e Android (a partir da versão 4.0.3). Informamos que os descontos são em relação ao preço padrão vigente. Pagamento somente no cartão de crédito ou débito em conta corrente. Para novos assinantes, ao escolher a opção de débito automático no ITAÚ, no primeiro mês de uso você precisará liberá-lo para concluir a operação. Essa autorização pode ser feita através dos canais: internet, caixas eletrônicos ou aplicativo Itaú. Cancele quando quiser através da nossa Central de Relacionamento. <br/> <br/> Assinatura O GLOBO DIGITAL PREMIUM - Oferta válida somente para novos assinantes/pessoa física. O valor de R$ 5,90 será cobrado nos três primeiros meses de assinatura do GLOBO DIGITAL PREMIUM. A partir do quarto mês, pague apenas R$ 29,90/mês, preço padrão vigente. Aplicativo GLOBO MAIS e Jornal digital  (através do aplicativo O GLOBO) disponíveis para smartphones e tablets compatíveis com os sistemas iOS (a partir da versão 8.1) e Android (a partir da versão 4.4), e para computadores. Aplicativo O GLOBO NOTÍCIAS disponível para smartphones compatíveis com os sistemas iOS (a partir da versão 8.1) e Android (a partir da versão 4.0.3). Informamos que os descontos são em relação ao preço padrão vigente. Pagamento somente no cartão de crédito ou débito em conta corrente. Para novos assinantes, ao escolher a opção de débito automático no ITAÚ, no primeiro mês de uso você precisará liberá-lo para concluir a operação. Essa autorização pode ser feita através dos canais: internet, caixas eletrônicos ou aplicativo Itaú. Cancele quando quiser através da nossa Central de Relacionamento.",
-      "banners": [
-        {
-          "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
-          "buttonText": "Quero assinar",
-          "buttonColor": "ff0000",
-          "buttonTextColor": "ffffff",
-          "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
-          "backgroundImage": "http://luciliadiniz.com/wp-content/uploads/2013/12/a-dieta-do-amigo-urso.jpg",
-          "devicesImage": "https://cdn.atelier.bnpparibas/media/cache/share/uploads/image/430653_atelier-marche-mondial-devices.jpg",
-          "googleAppLink": "https://play.google.com/store/apps/details?id=br.com.globomagazines",
-          "appleAppLink": "https://itunes.apple.com/br/app/globo+-conteudo-que-faz-diferenca/id943871531?mt=8"
-        },
-        {
-          "activated": true,
-          "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
-          "buttonText": "Quero assinar",
-          "buttonColor": "ff0000",
-          "buttonTextColor": "ffffff",
-          "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
-          "backgroundImage": "http://luciliadiniz.com/wp-content/uploads/2013/12/a-dieta-do-amigo-urso.jpg",
-          "devicesImage": "https://cdn.atelier.bnpparibas/media/cache/share/uploads/image/430653_atelier-marche-mondial-devices.jpg",
-          "googleAppLink": "https://play.google.com/store/apps/details?id=br.com.globomagazines",
-          "appleAppLink": "https://itunes.apple.com/br/app/globo+-conteudo-que-faz-diferenca/id943871531?mt=8"
-        }
-      ]
-    }
-  ]
+  "banner":
+  {
+    "text": "Assinante Globo+ têm acesso ilimitado a todos os produtos digitais",
+    "buttonText": "Quero assinar",
+    "buttonColor": "ff0000",
+    "buttonTextColor": "ffffff",
+    "buttonlink": "https://www.assineglobo.com.br/produtos/autoesporte/AT",
+    "backgroundImage": "banner-mobi.jpg",
+    "images": "banner-exemple.png",
+    "link": "https://itunes.apple.com/br/app/globo+-conteudo-que-faz-diferenca/id943871531?mt=8"
+  }
 }
