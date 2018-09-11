@@ -7,20 +7,30 @@
     <main>
       <!--div v-for="data in dataServer">{{data}}</div-->
       <main-title :title="dataServer.title" />
-      <products
-        :title="dataServer.bids[0].title"
-        :subtitle="dataServer.bids[0].subtitle"
-        :imageLink="dataServer.bids[0].imageLink"
-        :buttonText="dataServer.bids[0].buttonText"
-        :buttonColor="dataServer.bids[0].buttonColor"
-        :buttonTextColor="dataServer.bids[0].buttonTextColor"
-        :buttonlink="dataServer.bids[0].buttonlink"
-        :betterChoice="dataServer.bids[0].betterChoice"
-        :advantages="dataServer.bids[0].advantages[0]"
-        :titlePack="dataServer.bids[0].titlePack"
-        :priceMoney="dataServer.bids[0].priceMoney"
-        :priceTime="dataServer.bids[0].priceTime"
-      />
+      <products>
+        <ul v-for="data in dataServer.bids" >
+          <li :class="{'spotlight--best-choice': data.betterChoice }" >
+            <h3>{{ data.title }}</h3>
+            <p>{{ data.subtitle }}</p>
+            <img :src="`${data.imageLink}`" :alt="`${data.titlePack}`" />
+            <div class="price price--main">
+              <span class="price price--currency">R$</span>
+              <span class="price price--cash">{{ data.priceMoney }}</span>
+              <span class="price price--time">{{ data.priceTime }}</span>
+            </div>
+            <a 
+              :href="`${data.buttonlink}`" 
+              :style="`color: ${data.buttonTextColor} ; background-color: ${data.buttonColor} ;`"
+              class="button button--red">
+                {{ data.buttonText }}
+              </a>
+              <button class="button button--benefits-show " onclick="toggle();">Ver lista de benefícios</button>
+              <ul class="section--product-benefits hidden">
+                <li  v-for="dataInner in data.advantages">{{ dataInner }}</li>
+              </ul>
+          </li>
+        </ul>
+      </products>
       <benefits
         :text="dataServer.advantageConfiguration.text"
         :imageLink="dataServer.advantageConfiguration.advantages[0].imageLink"

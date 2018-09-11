@@ -29,7 +29,10 @@
       "betterChoice": true,
       "title": "Globo+",
       "subtitle": "Acesso ao conteúdo de todas as marcas da Editora Globo",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
+      "imageLink": "images/devices.png",
+      "titlePack": "Descricao do pack",
+      "priceMoney": "29,90",
+      "priceTime": "/mês",
       "codes": [
         "GMT"
       ],
@@ -46,7 +49,10 @@
     {
       "title": "Auto Esporte Plus",
       "subtitle": "Acesso a todo conteúdo digital + revista física",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQICnGDWM9Jhh_71y6PN8Uf1EFeYrnZk9qjaHTDrs6I2zuP7sBg",
+      "imageLink": "images/devices-e-revistas.png",
+      "titlePack": "Descricao do pack",
+      "priceMoney": "12,90",
+      "priceTime": "/mês",
       "codes": [
         "AT", "ATD"
       ],
