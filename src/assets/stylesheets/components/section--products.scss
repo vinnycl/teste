@@ -88,11 +88,10 @@
             margin-bottom: 4.8em;
             @include media(">bp1Width") {
                 margin-bottom: 3.6em;
-                display: flex;
-                justify-content: space-around;
+                text-align: center;
             };
             > li {
-                margin-bottom: 1.313em;
+                margin-bottom: 2em;
                 padding: 2.4em;
                 border: 0.1em solid #DDDDDD;
                 box-shadow: 0.4em 0.4em 0.9em 0 rgba(0,0,0,0.08);
@@ -103,8 +102,12 @@
                 };
                 @include media(">bp1Width") {
                     max-width: 27.2em;
-                    margin: 0 0 1.313em;
-                    align-self: flex-start;
+                    margin: 0 0.7em 1.313em;
+                    display: inline-block;
+                    vertical-align: top;
+                };
+                @include media(">maxWidth") {
+                    margin: 0 2em 1.313em;
                 };
             }
         }
@@ -113,6 +116,7 @@
             margin: 2em -2.4em 0em;
             padding-top: 0.6em;
             li {
+                text-align: left;
                 font-size: 1.4em;
                 line-height: 1.2;
                 margin-top: 1.071em;

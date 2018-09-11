@@ -15,10 +15,12 @@
                 box-shadow: none;
                 border: none;
                 padding: 0;
-                margin-bottom: 5.3em;
+                margin: 0 auto 5.3em;
                 @include media(">bp1Width") {
-                    margin: 0em;
+                    margin: 0 4em;
+                    width: 26em;
                 };
+                
                 h3 {
                     margin-bottom: 1.5em;
                 }

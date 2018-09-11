@@ -3,12 +3,9 @@
 .section--banner {
     background: white no-repeat 50% 50%;
     padding: 4em 1.3em 5em;
-    @include media(">minWidth") {
-        background-size: cover;
-    };
+    background-size: cover;
     @include media(">bp1Width") {
         padding: 12em 1.3em 12em;
-        background-size: 100%;
     };
     @include media(">bp1Width") {
         .grid {
@@ -33,16 +30,34 @@
         };
         @include media(">bp1Width") {
             font-size: 3.6em;
+            text-align: left;
         };
     }
     .button--red-inverted {
         width: 13em;
         margin: 0 auto;
+        @include media(">bp1Width") {
+            margin: 0;
+        };
     }
-    .section--banner-image {        
-        img {
-            margin: 3em auto 0;
-            display: block;
+    .section--banner-image {
+        a {
+            @include media(">bp1Width") {
+                display: flex;
+                align-items: center;
+                height: 100%;
+            };
+            img {
+                display: block;
+                margin: 3em auto 0;
+                max-width: 300px;
+                @include media(">bp1Width") {
+                    display: initial;
+                    margin: 0em auto 0;
+                    max-width: 400px;
+                };
+            }
         }
+        
     }
 }
