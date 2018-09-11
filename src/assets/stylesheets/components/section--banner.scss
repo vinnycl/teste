@@ -50,11 +50,11 @@
             img {
                 display: block;
                 margin: 3em auto 0;
-                max-width: 300px;
+                max-width: 30em;
                 @include media(">bp1Width") {
                     display: initial;
                     margin: 0em auto 0;
-                    max-width: 400px;
+                    max-width: 40em;
                 };
             }
         }
