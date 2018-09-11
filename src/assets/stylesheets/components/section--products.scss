@@ -84,7 +84,12 @@
             padding: 2.4em;
             border: 0.1em solid #DDDDDD;
             box-shadow: 0.4em 0.4em 0.9em 0 rgba(0,0,0,0.08);
-            border-radius: 0.5em 0.5em 0 0; 
+            border-radius: 0.5em 0.5em 0 0;
+            @include media(">minWidth") {
+                max-width: 32.2em;
+                margin: 0 auto 1.313em;
+            };
+            
         }
     }
     .section--product-benefits {
@@ -97,16 +102,6 @@
             margin-top: 1.071em;
             padding: 0 1.5em 0 3.929em;
             background: url(../../../assets/images/icon-check.svg) no-repeat 1.8em 0.2em;
-        }
-    }
-}
-@media only screen and (min-width: 600px) {
-    .section--products {
-        > ul {
-            > li {
-                max-width: 32.2em;
-                margin: 0 auto 1.313em;
-            }
         }
     }
 }

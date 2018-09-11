@@ -3,7 +3,7 @@
 .section--banner {
     background: url(../../../assets/images/banner-mobi.jpg) no-repeat 50% 50%;
     padding: 4.0em 1.3em 5em;
-    @include media("<minWidth") {
+    @include media(">minWidth") {
         background-size: cover;
     };
     h3 {
@@ -14,7 +14,7 @@
         font-style: italic;
         margin: 0 0 1em 0;
         text-align: center;
-        @include media("<minWidth") {
+        @include media(">minWidth") {
             max-width: 12em;
             margin: 0 auto 1em;
         };
